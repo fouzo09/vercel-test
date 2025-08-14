@@ -22,7 +22,7 @@ app.get("/", async (req, res) => {
     }
 });
 
-app.post("/auth", async (req, res) => {
+app.get("/auth", async (req, res) => {
     try {
         const response = await fetch('https://api.djomy.africa/v1/auth', {
             method: 'POST',
