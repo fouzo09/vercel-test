@@ -29,6 +29,7 @@ app.get("/auth", async (req, res) => {
             headers: {
                 'accept': '*/*',
                 'X-API-KEY': 'djomy-client-1753876876819-a180:e8ca1facfe8cd35a8b49181c9314cded9e9e4c6ce658b17c6a3d387e77c1fc0a',
+                'X-PARTNER-DOMAIN': 'my-vercel-test-nu.vercel.app',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({})
